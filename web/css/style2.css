@@ -1,0 +1,61 @@
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,900");
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+/* all */
+body {
+  margin: 0;
+  padding:0;
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+
+p{
+  font-family: 'cwTeXYen', sans-serif;
+}
+
+.page{
+  padding:0;
+  margin:7vw 15vw;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+/* link */
+#links{
+  display:block;
+  position:relative;
+  width:100vw;
+  margin:50px 2.5vw;
+}
+#links img{
+  margin:1vh 3vh 1vh 0;
+  width:3vh;
+  height:3vh;
+  transition:opacity .2s;
+}
+#links img:hover{
+  opacity:0.5;
+}
+
+/* animation */
+#home-animation-wrapper {
+  width: 100%;
+  position: relative;
+  top:0;
+}
+
+#home-animation-wrapper svg {
+  width: 70%;
+  max-height: 90%;
+  height: auto;
+  position: relative;
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
